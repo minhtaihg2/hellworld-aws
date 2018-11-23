@@ -6,5 +6,5 @@ files:
 hooks:
     BeforeInstall:
         - location: beforeInstall.bash
-        - timeout: 300
-        - runas: root
+          timeout: 300
+          runas: root
