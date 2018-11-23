@@ -1,0 +1,5 @@
+version: 0.1
+os: ubuntu
+files:
+  - source: /info.php
+    destination: /var/www/html/
