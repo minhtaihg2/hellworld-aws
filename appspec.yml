@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /info.php
+  - source: /index.html
     destination: /var/www/html/
 hooks:
     BeforeInstall:
         - location: beforeInstall.bash
+        - timeout: 300
+        - runas: root
